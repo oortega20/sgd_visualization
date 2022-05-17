@@ -12,7 +12,7 @@ Gradient descent is an algorithm that from a starting vector <img src="https://r
 
 <img src="https://render.githubusercontent.com/render/math?math=\large x_{\text{new}} =  x_{\text{old}} - \lambda \nabla_{x} f ">
 
-We designate the hyper-parameter <img src="https://render.githubusercontent.com/render/math?math=\lambda"> as the "learning rate" in the algorithm. Note that a smaller lambda parameter will account for a smaller difference between <img src="https://render.githubusercontent.com/render/math?math=x_{\text{new}}"> and <img src="https://render.githubusercontent.com/render/math?math=x_{\text{old}}"> which is why the modifying the learning rate is said to effect the "speed" of neural network-training. Because the gradient of a function gives direction of greatest ascent of a function. We go in the direction of the negative gradient to give us the direction of greatest descent.
+We designate the hyper-parameter <img src="https://render.githubusercontent.com/render/math?math=\lambda"> as the "learning rate" in the algorithm. Note that a smaller lambda parameter will account for a smaller difference between <img src="https://render.githubusercontent.com/render/math?math=x_{\text{new}}"> and <img src="https://render.githubusercontent.com/render/math?math=x_{\text{old}}"> which is why the modifying the learning rate is said to effect the "speed" of neural network-training. The gradient of a function gives direction of greatest ascent of a function. This information imples that if we go in the direction of the negative gradient we will go in the direction of greatest descent.
 
 
 
