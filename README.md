@@ -8,7 +8,7 @@ I did this project simply because I like to see this analogy visually. In the fu
 Also, the only thing better than a ball rolling down a hill is many balls rolling down a hill :).
 
 # Algorithm
-Gradient descent is an algorithm that from a starting vector <img src="https://render.githubusercontent.com/render/math?math=x">, we seek to minimize <img src="https://render.githubusercontent.com/render/math?math=f(x)">. We can define the <img src="https://render.githubusercontent.com/render/math?math=n">th iteration of gradient descent with SGD by the following recurrence relation
+Gradient descent is an algorithm that receives as input a starting vector <img src="https://render.githubusercontent.com/render/math?math=x">, and from that starting point, we seek to minimize <img src="https://render.githubusercontent.com/render/math?math=f(x)"> - the loss function with respect to its input. The algorithm then seeks to iteratively minimize the function by taking steps in the direction of greatest descent. We can define the <img src="https://render.githubusercontent.com/render/math?math=n">th iteration of gradient descent with SGD by the following recurrence relation:
 
 <img src="https://render.githubusercontent.com/render/math?math=\large x_{\text{new}} =  x_{\text{old}} - \lambda \nabla_{x} f ">
 
