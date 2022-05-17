@@ -1,6 +1,6 @@
 
 
-# sgd_visualization
+# SGD-Visualization
 
 When taking machine learning courses, I was always fascinated with gradient descent algorithms such as SGD.
 I always loved the analogy of the ball moving down the hill and how this analogy can be expressed in a mathematically rigorous way using tools such as multi-variable calculus. 
